@@ -1,3 +1,3 @@
-﻿The quick brown fox jumps over the lazy dog. This is a simple test document! 
+﻿The quick brown fox jumps over the lazy big dog. This is a simple test document! 
 
 It contains punctuation, capital letters, and some common filler words. The goal of this document is to test the word frequency analyzer. Let's see if the analyzer can strip out the punctuation, normalize the text, and split it correctly. We will analyze the text, clean the text, and count the text.
