@@ -1,0 +1,22 @@
+Word Frequency Report for: sample.txt
+========================================
+text: 4
+test: 2
+document: 2
+punctuation: 2
+analyzer: 2
+﻿the: 1
+quick: 1
+brown: 1
+fox: 1
+jumps: 1
+over: 1
+lazy: 1
+dog: 1
+simple: 1
+contains: 1
+capital: 1
+letters: 1
+some: 1
+common: 1
+filler: 1

@@ -35,7 +35,7 @@ def generate_ascii_chart(counts, top_n=20):
     max_freq = top_words[0][1]
     max_bar_length = 40 # Max characters for the visual bar
     
-    print(f"\n📊 TOP {top_n} WORD FREQUENCIES")
+    print(f"\n TOP {top_n} WORD FREQUENCIES")
     print("-" * 55)
     for word, freq in top_words:
         bar_length = int((freq / max_freq) * max_bar_length)
@@ -52,7 +52,7 @@ def export_report(counts, target_file, top_n=20):
         f.write("=" * 40 + "\n")
         for word, freq in counts.most_common(top_n):
             f.write(f"{word}: {freq}\n")
-    print(f"💾 Report successfully saved to '{report_path}'")
+    print(f" Report successfully saved to '{report_path}'")
 
 if __name__ == "__main__":
     # Allow command-line file targeting, fallback to sample.txt
